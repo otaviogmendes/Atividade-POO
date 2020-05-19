@@ -45,7 +45,7 @@ public class Pessoa {
 		
 		resultado = (anoAtual - nace) + cinquenta ;
 		
-		System.out.println("Sua idade daqui 50 anos será: "+ resultado);
+		System.out.println(getNome()+", sua idade daqui 50 anos será: "+ resultado);
 	}
 	
 	

@@ -13,11 +13,11 @@ public class UtilizandoClasse {
 		
 		Pessoa minhaIdade = new Pessoa(nome,anonace);
 		
-		System.out.println("Inform o nome: ");
+		System.out.println("Informe seu nome: ");
 		nome = sc.nextLine();
 		minhaIdade.setNome(nome);
 		
-		System.out.println("Informe a ano de nascimento: ");
+		System.out.println("Informe sua data de nascimento: ");
 		anonace = sc.nextInt();
 		minhaIdade.setAnonace(anonace);
 		
@@ -32,4 +32,4 @@ public class UtilizandoClasse {
 
 	}
 
-}
+
